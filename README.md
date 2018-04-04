@@ -38,4 +38,4 @@
     1800 -> undefined
 
 # 私新元号の提案
-issueへどうぞ
+[issue](https://github.com/Duct-and-rice/gengos/issues)へどうぞ
