@@ -1,14 +1,14 @@
 {
-  "name": "gengo",
+  "name": "gengos",
   "version": "1.0.0",
-  "description": "gengo",
+  "description": "gengos",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Duct-and-rice/gengo"
+    "url": "https://github.com/Duct-and-rice/gengos"
   },
   "keywords": [
     "japanese"
@@ -16,9 +16,9 @@
   "author": "Duct-and-rice",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Duct-and-rice/gengo/issues"
+    "url": "https://github.com/Duct-and-rice/gengos/issues"
   },
-  "homepage": "https://github.com/Duct-and-rice/gengo#readme",
+  "homepage": "https://github.com/Duct-and-rice/gengos#readme",
   "devDependencies": {
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.10.0",
