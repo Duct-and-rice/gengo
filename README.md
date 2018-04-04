@@ -26,6 +26,7 @@
     console.log('1800 ->', dateToGengo(new Date(1800,1)))
 
 表示
+
     now -> { name: '平成', start: 1989-02-07T15:00:00.000Z }
     1970 -> { name: '昭和', start: 1927-01-24T15:00:00.000Z }
     1920 -> { name: '大正', start: 1912-08-29T15:00:00.000Z }
