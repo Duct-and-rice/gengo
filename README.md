@@ -43,5 +43,11 @@ gengoの仕様
     gengo.start => Dateオブジェクト。その元号が始まった日の午前0時。グレゴリオ暦。
     gengo.romaji => ローマ字。ヘボン式。
 
+なお、startが同じ元号が複数ある場合、indexが若いものを優先とする。
+
+# 現在登録されている2019年年号の一覧
+- 新宝島
+  - 漫画の古典、手塚治虫の「新宝島」から。
+
 # 私新元号の提案
 [issue](https://github.com/Duct-and-rice/gengos/issues)へどうぞ
