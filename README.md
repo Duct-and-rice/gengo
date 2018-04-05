@@ -31,11 +31,17 @@
 
 表示
 
-    now -> { name: '平成', start: 1989-02-07T15:00:00.000Z }
-    1970 -> { name: '昭和', start: 1927-01-24T15:00:00.000Z }
-    1920 -> { name: '大正', start: 1912-08-29T15:00:00.000Z }
-    1900 -> { name: '明治', start: 1868-02-24T15:00:00.000Z }
+    now -> { name: '平成', start: 1989-02-07T15:00:00.000Z, romaji: 'heisei' }
+    1970 -> { name: '昭和', start: 1927-01-24T15:00:00.000Z, romaji: 'showa' }
+    1920 -> { name: '大正', start: 1912-08-29T15:00:00.000Z, romaji: 'taisho' }
+    1900 -> { name: '明治', start: 1868-02-24T15:00:00.000Z, romaji: 'meiji' }
     1800 -> undefined
+
+gengoの仕様
+
+    gengo.name => 日本語の名前
+    gengo.start => Dateオブジェクト。その元号が始まった日の午前0時。グレゴリオ暦。
+    gengo.romaji => ローマ字。ヘボン式。
 
 # 私新元号の提案
 [issue](https://github.com/Duct-and-rice/gengos/issues)へどうぞ
