@@ -15,7 +15,9 @@
       }
       for(let g of gengos){
         if(date.getTime() >= g.start.getTime()){
-          latestGengo = g
+          if (latestGengo.start.getTime() < g.start.getTime()){
+            latestGengo = g
+          }
         } else {
           return latestGengo
         }
